@@ -19,6 +19,10 @@ After issue has been resloved. I try this again.
 
 <img width="1365" height="768" alt="image" src="https://github.com/user-attachments/assets/6f3b5969-748d-47bb-978c-e234631d92ff" />
 
+<img width="1366" height="766" alt="image" src="https://github.com/user-attachments/assets/1a5a831a-65fb-4d05-afd4-16a761a26709" />
+
+
+
 
 
 
