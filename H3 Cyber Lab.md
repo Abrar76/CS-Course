@@ -14,6 +14,11 @@ I have installed all the required update.
 Previously, My machine giving error and got carshed during this task due to low RAM (Memory error)
 <img width="1152" height="661" alt="image" src="https://github.com/user-attachments/assets/f9d93f7d-df62-45ee-8c0e-e896228e58c4" />
 
+After issue has been resloved. I try this again.
+<img width="1364" height="768" alt="image" src="https://github.com/user-attachments/assets/f920421d-ce79-4b06-9f0c-0f05b840db29" />
+
+
+
 
 
 
