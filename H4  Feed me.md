@@ -41,3 +41,4 @@ I learned that new cybersecurity threats and vulnerabilities appear regularly. F
 The main benefit of a feed reader is that I can follow several websites in one place instead of visiting them separately. The downside is that too many updates can become overwhelming.
 
 # f). Port scan.
+A port scanner is a tool used to check which ports are open, closed or filtered on a computer or network. It helps identify what services are running on a system. It can be used by network administrators to check security, but attackers can also use it to find possible vulnerabilities.
