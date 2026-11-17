@@ -1,4 +1,4 @@
-# x) . Feed reader
+# x) . Feed reader.
 
 # y) . Supreme court of Finland Summary ( case Osuuspankkikeskus port scan KKO:2003:36)
 
