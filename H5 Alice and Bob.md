@@ -1,5 +1,23 @@
 # x) Read and summarize
 
+Schneier explain public‑key cryptography as a two‑key system enabling secure encryption, authentication, and digital signatures, built on hard mathematical problems and used to solve trust and key‑distribution challenges in modern communication. 
+
+Public key cryptography is defined by Schneier as a system where each participant has two mathematically linked keys:
+
+Public key that can be shared openly
+Private key that must remain secret
+
+The only essential property is asymmetry where one key encrypts and only the other can decrypt. Schneier emphasizes that this asymmetry enables capabilities impossible with symmetric cryptography alone. Which is one‑way functions and easy to invert only with special information. Schneier emphasizes that in practice it is used to exchange symmetric session keys but not to encrypt large data directly. Digital signatures are one of the most important applications in Schneier’s treatment. It also explain, Security depends on key length, algorithm choice, and proper implementation.
+
+Hybrid Cryptosystems
+Public‑key cryptography is computationally expensive. Schneier describes the standard hybrid model:
+Use public‑key encryption to protect a random session key.
+Use symmetric encryption (fast) for the actual message.
+Digital signature → authenticate sender + ensure integrity.
+
+This is the basis of PGP, TLS, SSH, and most modern systems. Vulnerable to man‑in‑the‑middle attacks if public keys aren’t authenticated. 
+
+
 # a) Pubkey today
 
 A public‑key process is built on asymmetric key pairs: a public key that anyone may use and a private key that only the owner keeps secret. Senders use the recipient’s public key to encrypt or verify, while recipients use their own private key to decrypt or sign, and key‑exchange protocols may add ephemeral keys for short‑lived shared secrets. These keys are mathematically linked but used for opposite operations: encryption vs. decryption or signing vs. verification. Below under is the process detail.
