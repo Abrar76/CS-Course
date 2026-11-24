@@ -4,6 +4,8 @@
 
 # b) Encrypt and decrypt a message. Explain how different parties use different keys at different stages of operation.
 
+Encryption transforms plaintext into unreadable ciphertext by using a key, and decryption reverses the process using the appropriate key either by the same key (symmetric) or a mathematically related key pair (asymmetric).
+
 The method and technique of keeping the messages secure is called cryptography. Along with confidentiality, it also offers non-repudiation, authentication, and integrity. Along with the algorithm, plaintext, ciphertext, and keys, a cryptosystem is also given. Algorithms used in cryptography, often known as ciphers, are mathematical operations that are used for encryption and decoding. It is a limited algorithm if the algorithm's security is kept a secret. A key is used for both encryption and decryption in modern cryptography methods. Cryptosystem is an algorithm system with all possible plain text, keys and ciphertexts.
 
 There are actually two primary kinds of encryption. Steganography is the practice of hiding messages with other messages. Transposition encryption keys: Same plaintext, but characters are in a different order.
