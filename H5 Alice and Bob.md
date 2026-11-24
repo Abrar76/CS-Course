@@ -22,6 +22,7 @@ Asymmetric Example: Sending a confidential message
 3.	Bob receives the ciphertext:
 4.	He decrypts by using his private key.
 Now only Bob can decrypt because only he has the private key.
+
 Symmetric Example: Sending a message with symmetric encryption
 1.	Alice and Bob share a secret key (via secure exchange).
 2.	Alice encrypts using the shared key.
@@ -30,6 +31,7 @@ When symmetric keys must be shared securely, protocols like Diffie–Hellman all
 •	Alice and Bob exchange public values.
 •	Each uses their private value plus the other’s public value to compute the same shared secret. This shared secret becomes the symmetric key.
 Even if an attacker sees the exchanged public values, they cannot compute the private values.
+
 Hybrid Encryption
 Modern systems combine both methods:
 1.	Asymmetric encryption is used to securely exchange a symmetric key.
