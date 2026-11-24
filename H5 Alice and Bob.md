@@ -34,6 +34,7 @@ Hybrid Encryption
 Modern systems combine both methods:
 1.	Asymmetric encryption is used to securely exchange a symmetric key.
 2.	Symmetric encryption is used for the actual data (fast and efficient) 
+ 
 
 
 
