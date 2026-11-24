@@ -2,6 +2,33 @@
 
 # a) Pubkey today
 
+A public‑key process is built on asymmetric key pairs: a public key that anyone may use and a private key that only the owner keeps secret. Senders use the recipient’s public key to encrypt or verify, while recipients use their own private key to decrypt or sign, and key‑exchange protocols may add ephemeral keys for short‑lived shared secrets. These keys are mathematically linked but used for opposite operations: encryption vs. decryption or signing vs. verification. Below under is the process detail.
+
+1. Sender encrypts using the recipient’s public key.
+In public‑key encryption, anyone can encrypt a message using the recipient’s public key
+Only the recipient, who holds the private key, can decrypt the ciphertext.
+This stage ensures confidentiality: even if the public key is widely distributed, only the private key holder can read the message.
+
+2. Recipient decrypts using their private key.
+The recipient uses their private key to invert the trapdoor one‑way function and recover the plaintext.
+The security of the system depends on keeping this private key secret.
+
+3. Sender signs using their private key.
+The sender signs a message using their private key. Anyone can verify the signature using the sender’s public key.
+
+4. Receiver verifies using the sender’s public key.
+Verification uses the public signature verification key. This confirms the message has not been modified and identifies the sender.
+
+5. Key‑exchange uses both parties’ public keys and private keys.
+Protocols like Diffie–Hellman use key pairs differently. Each party generates a public/private key pair and exchanges public keys. Using their private key and the other party’s public key, they compute a shared secret. This shared secret becomes a symmetric key for faster encryption in hybrid systems such as TLS.
+
+6. Ephemeral keys for forward secrecy.
+. Long‑term asymmetric keys for identity and signing
+. Ephemeral keys for short‑lived sessions, ensuring that compromising a long‑term private key does not reveal past communications.
+
+In public‑key cryptography, public keys are shared openly and used by others to encrypt messages or verify digital signatures, while private keys are kept secret and used to decrypt messages intended for you or to create digital signatures that prove authenticity. Encryption + decryption provide confidentiality, and signing + verification provide authenticity and integrity. In key‑exchange protocols, each party combines their private key with the other party’s public key to derive a shared secret for secure communication.
+
+
 # b) Encrypt and decrypt a message. Explain how different parties use different keys at different stages of operation.
 
 Encryption transforms plaintext into unreadable ciphertext by using a key, and decryption reverses the process using the appropriate key either by the same key (symmetric) or a mathematically related key pair (asymmetric).
