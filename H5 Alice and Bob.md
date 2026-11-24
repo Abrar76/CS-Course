@@ -4,6 +4,11 @@
 
 # b) Encrypt and decrypt a message. Explain how different parties use different keys at different stages of operation.
 
+The method and technique of keeping the messages secure is called cryptography. Along with confidentiality, it also offers non-repudiation, authentication, and integrity. Along with the algorithm, plaintext, ciphertext, and keys, a cryptosystem is also given. Algorithms used in cryptography, often known as ciphers, are mathematical operations that are used for encryption and decoding. It is a limited algorithm if the algorithm's security is kept a secret. A key is used for both encryption and decryption in modern cryptography methods. Cryptosystem is an algorithm system with all possible plain text, keys and ciphertexts.
+
+There are actually two primary kinds of encryption. Steganography is the practice of hiding messages with other messages. Transposition encryption keys: Same plaintext, but characters are in a different order.
+
+
 # c) Password management. Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers?
 
 A password manager is an app that stores your passwords, so you don't need to remember them. Once you've logged into the password manager using a 'master' password, it will generate and remember your passwords for all your online accounts. 
