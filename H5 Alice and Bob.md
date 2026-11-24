@@ -22,9 +22,14 @@ Password manager is a secure application that stores all your login credentials 
 
 ## What kind of attacks take advantage of people not using password managers
 . Credential Stuffing: Attackers reuse stolen username/password pairs from breaches, hoping users will reused them elsewhere.
+
 . Password Spraying : Attackers try common passwords like ABC or 123456 across many other accounts while a unique and complex passwords stop this entirely.
+
 . Brute Force & Dictionary Attacks : Weak or predictable passwords are easily guessed through automated tools.
+
 . Phishing : Phishing tricks users into entering passwords on fake sites while password managers auto‑fill only on a legitimate domains which helping us to avoid entering credentials on fraudulent pages.
+
 . Keylogging : Keyloggers record typed passwords while password manager reduce typing which lowering exposure.
+
 
 
