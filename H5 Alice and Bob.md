@@ -8,6 +8,8 @@ The method and technique of keeping the messages secure is called cryptography. 
 
 There are actually two primary kinds of encryption. Steganography is the practice of hiding messages with other messages. Transposition encryption keys: Same plaintext, but characters are in a different order.
 
+The security of algorithms depends on how difficult it is to break them; there are various types of breaking. Break total, subtract globally, deduct instances, subtract information. Data complexity, computational complexity, and storage needs can all be used to gauge how complicated an attack could be.
+
 
 # c) Password management. Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers?
 
