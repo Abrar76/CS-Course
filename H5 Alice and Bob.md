@@ -12,6 +12,30 @@ There are actually two primary kinds of encryption. Steganography is the practic
 
 The security of algorithms depends on how difficult it is to break them; there are various types of breaking. Break total, subtract globally, deduct instances, subtract information. Data complexity, computational complexity, and storage needs can all be used to gauge how complicated an attack could be.
 
+# How Different Parties Use Keys at Each Stage
+Asymmetric Example: Sending a confidential message
+1.	Bob generates a key pair:
+•	Public key (shared)
+•	Private key (secret) 
+2.	Alice wants to send Bob a message:
+•	he encrypts using Bob’s public key.
+3.	Bob receives the ciphertext:
+4.	He decrypts by using his private key.
+Now only Bob can decrypt because only he has the private key.
+Symmetric Example: Sending a message with symmetric encryption
+1.	Alice and Bob share a secret key (via secure exchange).
+2.	Alice encrypts using the shared key.
+3.	Bob decrypts using the same key.
+When symmetric keys must be shared securely, protocols like Diffie–Hellman allow two parties to derive a shared secret without sending the key directly.
+•	Alice and Bob exchange public values.
+•	Each uses their private value plus the other’s public value to compute the same shared secret. This shared secret becomes the symmetric key.
+Even if an attacker sees the exchanged public values, they cannot compute the private values.
+Hybrid Encryption
+Modern systems combine both methods:
+1.	Asymmetric encryption is used to securely exchange a symmetric key.
+2.	Symmetric encryption is used for the actual data (fast and efficient) 
+
+
 
 # c) Password management. Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers?
 
